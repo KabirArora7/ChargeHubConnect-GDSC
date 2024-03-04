@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.login-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.login-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #006600;
+    color: #ffffff;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: auto;
+}
+
+.section {
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust the text color as needed */
+}
+
+.logo {
+    max-width: 150px; /* Adjust the size as needed */
+}
+
+.options {
+    display: block;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.section{
+    text-align: center;
+    height: 100%;
+}
+
+#title{
+    padding-top: 150px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+    outline: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    z-index: 1111;
+}
+
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 50%;
+    cursor: pointer;
+    transition: .1s;
+}
+
